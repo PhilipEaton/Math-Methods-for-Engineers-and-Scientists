@@ -73,3 +73,27 @@ $$
 =
 E
 $$
+
+<div class="example">
+A block slides down a rough incline with constant acceleration.  
+Identify all forces acting on the block and write down Newton’s second law.
+</div>
+
+<div class="Result">
+In an isolated system, the total linear momentum remains constant.
+</div>
+
+<div class="warning">
+Mass and weight are not the same quantity.  
+Mass measures inertia, while weight is a force.
+</div>
+
+<div class="example">
+Using Newton’s second law,
+
+\[
+\vec{F}_{\text{net}} = m\vec{a}
+\]
+
+we see that the acceleration depends only on the net force.
+</div>
