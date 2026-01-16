@@ -1,3 +1,8 @@
+---
+layout: default
+title: Lecture 1 – Classical Mechanics
+---
+
 # Lecture 1: Review of Classical Mechanics
 
 ## Inline Math
