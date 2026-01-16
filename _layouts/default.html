@@ -95,21 +95,44 @@
 
     
     /* Notes and Examples */
-    .note {
+    .example {
       border-left: 4px solid #444;
       padding: 0.75rem 1rem;
       margin: 1.5rem 0;
       background: #f9f9f9;
     }
-    .note::before {
+    .example::before {
       content: "Example.";
       font-weight: bold;
       display: block;
       margin-bottom: 0.25rem;
         }
 
-    .note strong {
+    .result {
+      border-left: 4px solid #003366;
+      padding: 0.75rem 1rem;
+      margin: 1.5rem 0;
+      background: #f4f7fb;
+    }
+    .result::before {
+      content: "Result.";
       font-weight: bold;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .warning {
+      border-left: 4px solid #aa0000;
+      padding: 0.75rem 1rem;
+      margin: 1.5rem 0;
+      background: #fff5f5;
+     }
+
+    .warning::before {
+      content: "Common Mistake.";
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.25rem;
     }
 
     /* Links – subtle like PDFs */
