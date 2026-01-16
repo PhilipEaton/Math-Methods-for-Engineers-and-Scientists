@@ -91,6 +91,7 @@
       margin-top: 0.5rem;
     }
 
+    
     /* Notes and Examples */
     .note {
       border-left: 4px solid #444;
@@ -98,6 +99,12 @@
       margin: 1.5rem 0;
       background: #f9f9f9;
     }
+    .note::before {
+      content: "Example.";
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.25rem;
+        }
 
     .note strong {
       font-weight: bold;
